@@ -1,0 +1,7 @@
+.remote-video {
+  border: 2px solid #334155;
+}
+
+.remote-video:hover {
+  border-color: #6366f1;
+}

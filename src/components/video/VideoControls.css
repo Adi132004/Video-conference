@@ -1,0 +1,48 @@
+.video-controls {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 24px;
+  background: #2B2B2B;
+  border-top: 2px solid #D4D4D4;
+}
+
+.controls-group {
+  display: flex;
+  gap: 16px;
+}
+
+.control-button {
+  width: 56px;
+  height: 56px;
+  border-radius: 50%;
+  background: #334155;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: none;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.control-button:hover {
+  background: #475569;
+  transform: scale(1.1);
+}
+
+.control-button.disabled {
+  background: #ef4444;
+}
+
+.control-button.disabled:hover {
+  background: #dc2626;
+}
+
+.leave-button {
+  background: #ef4444;
+}
+
+.leave-button:hover {
+  background: #dc2626;
+}
